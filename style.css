@@ -1,0 +1,66 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.hero{
+  width: 592px;
+  margin: 0px auto 72px;
+}
+
+.hero img{
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  line-height: 56px;
+  font-size: 49px;
+  margin-bottom: 32px;
+}
+
+h1 span{
+  font-weight: bold;
+  color: #f06718;
+}
+
+span,a{
+  color: #0a2e53;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #164c82c8;
+}
+
+a:visited{
+  color: #0a2e53;
+}
+
+p, footer{
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+#line{
+  width: 568px;
+  height: 0px;
+
+  border: 1px solid rgb(57, 99, 181);
+  margin: 0 auto 8px;
+}
+
+footer a + a {
+  margin-left: 30px;
+}
+
+#balls{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
